@@ -11,68 +11,10 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
-   body {
-    margin: 0;
-}
-
-a {
-    text-decoration: none;
-}
-
-.clear {
-    clear: left;
-}
-
-.container {
-    max-width: 1170px;
-    width: 100%;
-    padding: 0 10px;
-    margin: 0 auto;
-}
-
-.fa {
-    margin-right: 5px;
-}
-
-header {
-    height: 90px;
-    width: 100%;
-    background-color: #006266;
-    color: #fff;
-    position: fixed;
-    top: 0;
-    z-index: 10;
-}
-
-.header-logo {
-padding: 25px 15px;
-font-size: 40px;
-}
-
-.header-left {
-    float: left;
-}
-
-.header-right {
-    float: right;
-    margin-right: -10px;
-}
-
-.header-right a {
-    line-height: 80px;
-    padding: 0 25px;
-    color: white;
-    display: block;
-    float: left;
-    transition: all 0.5s;
-}
-
-.menu-icon {
-    color: white;
-    float: right;
-    font-size: 25px;
-    padding: 21px 0;
-    display: none;
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
 }
 
 /*
@@ -144,6 +86,122 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.clear {
+    clear: left;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
+.fa {
+    margin-right: 5px;
+}
+
+header {
+    height: 90px;
+    width: 100%;
+    background-color: #006266;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.header-logo {
+padding: 25px 15px;
+font-size: 40px;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-right {
+    float: right;
+    margin-right: -10px;
+}
+
+.header-right a {
+    line-height: 80px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
+}
+
+.menu-icon {
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
+
+li {
+    list-style: none;
+}
+
+.header {
+  background-color: #006266;
+  color: #fff;
+  height: 90px;
+}
+
+.header-logo {
+  float: left;
+  font-size: 40px;
+  padding: 25px 80px;
+}
+
+.header-list li {
+  float: right;
+  font-size: 20px;
+  padding: 33px 30px;
+}
+
+.selected {
+  background-color:#007175;
+}
+
+.footer {
+    background-color: rgb(4, 68, 68);
+    color: rgb(255, 255, 255);
+    height: 150px;
+    padding: 40px;
+    text-align: center;
+}
+
+.footer-logo {
+    float: left;
+    font-size: 50px ;
+    padding: 20px 30px 20px 30px;
+}
+
+.footer-list {
+    float: right;
+}
+
+.footer-list li {
+    font-size: 30px;
+    padding: 10px 0 10px 0;
+}
+
+a {
+  color: rgb(255, 255, 255);
+}
 
 /* ==========================================================================
    Helper classes
