@@ -104,7 +104,7 @@ li {
 .footer {
   background-color: rgb(4, 68, 68);
   color: rgb(255, 255, 255);
-  height: 150px;
+  height: 250px;
   padding: 40px;
   text-align: center;
 }
@@ -282,6 +282,9 @@ h3{
   margin: 0 auto;
   font-size: 20px;
   color: #95a5a6;
+}
+.body-item {
+  text-align: center;
 }
 @media all and (max-width: 1000px) {
   .main-item{            
