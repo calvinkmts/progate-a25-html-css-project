@@ -75,75 +75,58 @@ font-size: 40px;
     display: none;
 }
 
-/*
- * Remove text-shadow in selection highlight:
- * https://twitter.com/miketaylr/status/12228805301
- *
- * Vendor-prefixed and regular ::selection selectors cannot be combined:
- * https://stackoverflow.com/a/16982510/7133471
- *
- * Customize the background color to match your design.
- */
-
-::-moz-selection {
-  background: #b3d4fc;
-  text-shadow: none;
+li {
+    list-style: none;
 }
 
-::selection {
-  background: #b3d4fc;
-  text-shadow: none;
+.header {
+  background-color: #006266;
+  color: #fff;
+  height: 90px;
 }
 
-/*
- * A better looking default horizontal rule
- */
-
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #ccc;
-  margin: 1em 0;
-  padding: 0;
+.header-logo {
+  float: left;
+  font-size: 40px;
+  padding: 25px 80px;
 }
 
-/*
- * Remove the gap between audio, canvas, iframes,
- * images, videos and the bottom of their containers:
- * https://github.com/h5bp/html5-boilerplate/issues/440
- */
-
-audio,
-canvas,
-iframe,
-img,
-svg,
-video {
-  vertical-align: middle;
+.header-list li {
+  float: right;
+  font-size: 20px;
+  padding: 33px 30px;
 }
 
-/*
- * Remove default fieldset styles.
- */
-
-fieldset {
-  border: 0;
-  margin: 0;
-  padding: 0;
+.selected {
+  background-color:#007175;
 }
 
-/*
- * Allow only vertical resizing of textareas.
- */
-
-textarea {
-  resize: vertical;
+.footer {
+    background-color: rgb(4, 68, 68);
+    color: rgb(255, 255, 255);
+    height: 150px;
+    padding: 40px;
+    text-align: center;
 }
 
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
+.footer-logo {
+    float: left;
+    font-size: 50px ;
+    padding: 20px 30px 20px 30px;
+}
+
+.footer-list {
+    float: right;
+}
+
+.footer-list li {
+    font-size: 30px;
+    padding: 10px 0 10px 0;
+}
+
+a {
+  color: rgb(255, 255, 255);
+}
 
 /* ==========================================================================
    Helper classes
