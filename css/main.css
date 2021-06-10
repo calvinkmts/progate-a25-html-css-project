@@ -368,19 +368,52 @@ h3{
   font-size: 48px;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.img1-container{  
+  overflow: hidden;
+}
 .img1{
   margin-bottom: 30px;
   margin-left:50px;
   height: 600px;
   width: 800px;
   transition: transform .2s;
+  animation-duration: 3s;
+  animation-delay: 5s;
+  animation-iteration-count:initial;
+  animation-name: slidein1;
 }
+@keyframes slidein1 {
+  from {
+    margin-left: 100%;    
+  }
+
+  to {
+    margin-left: 50px;    
+  }
+}
+.img2-container{  
+  overflow: hidden;
+}
+
 .img2{
   margin-bottom: 30px;
   margin-left:50px;
   height: 600px;
   width: 800px;
   transition: transform .2s;
+  animation-duration: 3s;
+  animation-delay: 5s;
+  animation-iteration-count:initial;
+  animation-name: slidein2;
+}
+@keyframes slidein2 {
+  from {
+    margin-left: 100%;    
+  }
+
+  to {
+    margin-left: 50px;    
+  }
 }
 .img1:hover {
   transform: scale(1.05);
